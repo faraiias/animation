@@ -1,0 +1,37 @@
+div {
+    width: 200px;
+    height: 200px;
+    transition: all ease-out;
+    animation-name: shakalad;
+    animation-duration: 5s;
+    position: absolute;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shakalad {
+    0% {
+        top: 10px;
+        left: 10px;
+        background-color: palevioletred;
+    }
+    25% {
+        top: 10px;
+        left: 200px;
+        background-color: aquamarine;
+    }
+    50% {
+        top: 150px;
+        left: 200px;
+        background-color: brown;
+    }
+    75% {
+        top: 150px;
+        left: 10px;
+        background-color: chartreuse;
+    }
+    100% {
+        top: 10px;
+        left: 10px;
+        background-color: palevioletred;
+    }
+}
